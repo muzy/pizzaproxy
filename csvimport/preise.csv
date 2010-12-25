@@ -1,0 +1,31 @@
+,,,"Funghi Havensteinstr. 46","0208 660531","Menu-Nr.","Firenze Lothringer Str. 6","0208 27064 oder 855060","Menu-Nr.","Angelo Nohlstr. 41","0208 854783 oder 22755","Menu-Nr.","Gioconda Helmholtzstr. 72","0208 65627807","Menu-Nr."
+1,"Pizza Magheritta klein",300,210,"Pizza Magheritta klein",1,300,"Pizza Magheritta klein",1,250,"Pizza Magheritta klein",1,300,"Pizza Magheritta klein",100
+2,"Pizza Hawaii klein",400,340,"Pizza Hawaii klein",12,300,"Pizza Hawaii klein",12,350,"Pizza Hawaii klein",8,400,"Pizza Hawaii klein",107
+3,"Pizza Schinken klein",350,290,"Pizza Schinken klein",7,300,"Pizza Schinken klein",7,300,"Pizza Schinken klein",8,350,"Pizza Schinken klein",101
+4,"Pizza Thunfisch klein",400,340,"Pizza Thunfisch klein",16,350,"Pizza Thunfisch klein",16,350,"Pizza Thunfisch klein",7,400,"Pizza Thunfisch klein",114
+5,"Pizza Salami klein",350,290,"Pizza Salami klein",5,300,"Pizza Salami klein",5,300,"Pizza Salami klein",6,350,"Pizza Salami klein",102
+6,"Pizza Bolognese klein",400,290,"Pizza Bolognese klein",6,300,"Pizza Bolognese klein",6,350,"Pizza Bolognese klein",12,400,"Pizza Bolognese klein",110
+7,"Pizza Spinat klein",400,320,"Pizza Spinat klein",9,300,"Pizza Spinat klein",9,350,"Pizza Spinat klein",14,400,"Pizza Spinat klein",115
+8,"Pizza Champignons klein",350,290,"Pizza Champignons klein",8,300,"Pizza Champignons klein",8,300,"Pizza Champignons klein",9,350,"Pizza Champignons klein",103
+11,"Pizza Magheritta groß",500,360,"Pizza Magheritta groß",1,400,"Pizza Magheritta groß",1,400,"Pizza Magheritta groß",1,500,"Pizza Magheritta groß",100
+12,"Pizza Hawaii groß",600,520,"Pizza Hawaii groß",12,550,"Pizza Hawaii groß",12,500,"Pizza Hawaii groß",8,600,"Pizza Hawaii groß",107
+13,"Pizza Schinken groß",550,460,"Pizza Schinken groß",7,500,"Pizza Schinken groß",7,450,"Pizza Schinken groß",8,550,"Pizza Schinken groß",101
+14,"Pizza Thunfisch groß",600,540,"Pizza Thunfisch groß",16,600,"Pizza Thunfisch groß",16,550,"Pizza Thunfisch groß",7,650,"Pizza Thunfisch groß",114
+15,"Pizza Salami groß",550,460,"Pizza Salami groß",5,500,"Pizza Salami groß",5,450,"Pizza Salami groß",6,550,"Pizza Salami groß",102
+16,"Pizza Bolognese groß",600,460,"Pizza Bolognese groß",6,500,"Pizza Bolognese groß",6,550,"Pizza Bolognese groß",12,600,"Pizza Bolognese groß",110
+17,"Pizza Spinat groß",600,520,"Pizza Spinat groß",9,500,"Pizza Spinat groß",9,550,"Pizza Spinat groß",14,600,"Pizza Spinat groß",115
+18,"Pizza Champignons groß",550,460,"Pizza Champignons groß",8,500,"Pizza Champignons groß",8,450,"Pizza Champignons groß",9,550,"Pizza Champignons groß",103
+21,"Spaghetti Napoli",450,450,"Spaghetti Napoli",32,450,"Spaghetti Napoli",32,400,"Spaghetti Napoli",39,450,"Spaghetti Napoli",141
+22,"Spaghetti Bolognese",550,470,"Spaghetti Bolognese",31,500,"Spaghetti Bolognese",31,450,"Spaghetti Bolognese",40,550,"Spaghetti Bolognese",143
+23,"Spaghetti Carbonara",600,580,"Spaghetti Carbonara",33,550,"Spaghetti Carbonara",33,550,"Spaghetti Carbonara",41,600,"Spaghetti Carbonara",143
+24,"Lasagne",700,640,"Lasagne",52,600,"Lasagne",52,550,"Lasagne",68,750,"Lasagne",130
+31,"gemischter Salat ohne Dressing",400,310,"Gemischter Salat ohne Dressing",62,350,"Insalata Mista ohne Dressing",62,300,"gemischter Salat ohne Dressing",112,400,"gemischter Salat ohne Dressing",126
+32,"Salat mit Thunfisch ohne Dressing",550,520,"Insalata Tonno gross",64,450,"Insalata Tonno gross",64,500,"Salat mit Thunfisch ohne Dressing",106,650,"Salat mit Thunfisch ohne Dressing",128
+33,"Salat mit Schinken ohne Dressing",550,550,"Insalata Italiano gross",63,450,"Insalata Italiano gross",63,550,"Capricciosa ohne Thunfisch",104,700,"Salat mit Schinken ohne Dressing",128
+34,"gemischter Salat Cocktaildressing",400,310,"gemischter Salat Cocktaildressing",62,350,"Insalata Mista Cocktaildressing",62,300,"gemischter Salat Cocktaildressing",112,400,"gemischter Salat Cocktaildressing",126
+35,"Salat mit Thunfisch Cocktaildressing",550,520,"Insalata Tonno Cocktaildressing gross",64,450,"Insalata Tonno Cocktaildressing gross",64,500,"Salat mit Thunfisch Cocktaildressing",106,650,"Salat mit Thunfisch Cocktaildressing",128
+36,"Salat mit Schinken Cocktaildressing",550,550,"Insalata Italiano Cocktaildressing gross",63,450,"Insalata Italiano Cocktaildressing gross",63,550,"Capriciosa ohne Thunfisch Cocktaildressing",104,700,"Salat mit Schinken Cocktaildressing",128
+37,"gemischter Salat Joghurtdressing",400,310,"gemischter Salat Joghurtdressing",62,350,"Insalata Mista Joghurtdressing",62,300,"gemischter Salat Joghurtdressing",112,400,"gemischter Salat Joghurtdressing",126
+38,"Salat mit Thunfisch Joghurtdressing",550,520,"Insalata Tonno Joghurtdressing gross",64,450,"Insalata Tonno Joghurtdressing gross",64,500,"Salat mit Thunfisch Joghurtdressing",106,650,"Salat mit Thunfisch Joghurtdressing",128
+39,"Salat mit Schinken Joghurtdressing",550,550,"Insalata Italiano Joghurtdressing gross",63,450,"Insalata Italiano Joghurtdressing gross",63,550,"Capriciosa ohne Thunfisch Joghurtdressing",104,700,"Salat mit Schinken Joghurtdressing",128
+41,"Pizzabrötchen mit Kräuterbutter",200,190,"Pizzabrötchen mit Kräuterbutter",0,150,"Pizzabrötchen mit Kräuterbutter",0,150,"Pizzabrötchen mit Kräuterbutter",0,250,"Pizzabrötchen mit Kräuterbutter",0

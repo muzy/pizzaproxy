@@ -1,0 +1,127 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+}
+
+#menu {
+	background-color: #000;
+	color: #fff;
+	padding: 0.8em;	
+}
+
+#menu a{
+	color: #fff;
+	padding-left: 0.5em;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
+
+#main_menu {
+	float: left;
+}
+
+/**
+ * #admin_menu {
+ *     float: right;
+ * }
+ */
+
+h1 {
+	font-size: 125%;
+	margin: 0;
+	margin-bottom: 0em;
+	background-color: #D4E6FC;
+	padding-left: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border-bottom-right-radius: 0;
+	-moz-border-radius-bottomright: 0;
+	border-bottom-left-radius: 0;
+	-moz-border-radius-bottomleft: 0;
+}
+
+div.column {
+	float: left;
+	margin: 0.5em;
+	width: 700px;
+}
+
+div.smallcolumn {
+	float: left;
+	margin: 0.5em;
+	width: 600px;
+}
+
+div.singlecolumn {
+	float: left;
+	margin: 1em;
+	overflow: hidden;
+	width: 900px;
+}
+
+div.box {
+	border: 1px solid #000;
+	-moz-border-radius: 15px;
+	border-radius: 15px;	
+	margin-bottom: 1em;
+}
+
+table {
+	width: 100%;
+	margin: 0em 0em 15px 0em;
+}
+
+table ul {
+	margin: 0;
+	padding: 0;
+}
+
+table ul.price {
+	border-bottom: 3px double #000;
+}
+
+table ul li {
+	list-style: none;
+}
+
+tr:nth-child(odd)  { background-color:#ddd; }
+tr:nth-child(even) { background-color:#fff; }
+
+th {
+	background-color: #ccc;
+	padding: 0.25em;	
+}
+
+td {
+	padding: 0.25em;
+	vertical-align: top;
+}
+
+.pizza_description {
+	font-size: 75%;	
+}
+
+img.tux {
+	position: fixed; left: 0; bottom: 0; z-index: -1;
+	display: none;
+}
+
+div.orderoverview {
+	background-color: #111;
+	color: #fff;
+}
+
+div.orderoverview .last{
+	float: left;
+	text-align: left;
+	padding-left: 0.5em;
+}
+
+div.orderoverview .next{
+	float: right;
+	text-align: right;
+	padding-right: 0.5em;
+}

@@ -1,0 +1,72 @@
+body {
+	font-family: sans-serif;
+	margin: 1em;
+}
+
+h1 {
+	font-size: 125%;
+	margin: 0;
+	margin-bottom: 0em;
+	padding-left: 15px;
+}
+
+table {
+	width: 100%;
+	margin: 0em 0em 15px 0em;
+	border: 1px solid black;
+}
+
+th {
+	padding: 0.25em;
+	text-align: left;
+}
+
+td {
+	padding: 0.25em;
+	border-top: 1px solid black;
+}
+td.check  {
+	text-align: center;
+}
+td.check div {
+	display: inline;
+	border: 1px solid black;
+}
+
+.pizza_description {
+	font-size: 75%;	
+}
+
+.total td {
+	border: 0;
+	border-top: 4px;
+	border-style: double;
+}
+
+.printbutton {
+	font-weight: bold;
+	font-size: 125%;
+	width: 100%;
+}
+table ul {
+	margin: 0;
+	padding: 0;
+}
+
+table ul.price {
+	border-bottom: 3px double #000;
+}
+
+table ul li {
+	list-style: none;
+}
+
+div.alternatives {
+	font-size: 9pt;
+	font-style: italic;
+	font-weight: normal;	
+}
+
+div.alternatives span {
+	white-space: nowrap;
+}
