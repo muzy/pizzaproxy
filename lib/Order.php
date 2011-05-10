@@ -170,35 +170,34 @@ class Order {
 
   
   public static function addPreOrder(array $pizzaids) {
-····
+
     $totalAmount = 0;
     foreach ($pizzaids as $proxyid => $amount) {
       $totalAmount += $amount;
     }
-····
+
     if ($totalAmount <= 0) {
       return null;
     }
-····
-    $rows = Database::pdo()->exec("insert into " . Order::TABLE_NAME ."·
-      »·(status)·
-      »·values (".Database::pdo()->quote(ORDER::STATUS_PREORDERED).")");
-······
+
+    $rows = Database::pdo()->exec("insert into " . Order::TABLE_NAME ."
+      (status) values (".Database::pdo()->quote(ORDER::STATUS_PREORDERED).")");
+
     $orderid = Database::pdo()->lastInsertId();
     foreach ($pizzaids as $proxyid => $amount) {
-······
+
       if (!is_numeric($amount) || $amount <= 0)
       {
         continue;
       }
-······
-      $rows = Database::pdo()->exec("insert into " . OrderProxy::TABLE_NAME ."·
-      »·(orderid, proxypizzaid, amount)·
-      »·values ('$orderid','$proxyid','$amount')");
-······
+
+	  $rows = Database::pdo()->exec("insert into " . OrderProxy::TABLE_NAME ."
+      (orderid, proxypizzaid, amount)
+      values ('$orderid','$proxyid','$amount')");
+
     }
-····
-    return $rows;····
+
+    return $rows;
   }
 
 
@@ -251,11 +250,11 @@ class Order {
   }
 
   public static function markAsPayed(array $orderids) {
-····
-    $rows = Database::pdo()->exec("update " . Order::TABLE_NAME ."·
-    set status = ". Database::pdo()->quote(self::STATUS_WAITING) ." 
-	where id in (". implode(",", $orderids).")");·
-····
+		  
+	$rows = Database::pdo()->exec("update " . Order::TABLE_NAME ."
+    set status = ". Database::pdo()->quote(self::STATUS_WAITING) ."
+	where id in (". implode(",", $orderids).")");
+
     return $rows;
   }
   

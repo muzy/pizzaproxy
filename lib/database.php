@@ -42,14 +42,16 @@ class Database {
     									shipping INTEGER,
     									active BOOL DEFAULT 1)";
     
-    //TODO Migration der Daten auf geändertes Schema
-    
+    self::pdo()->beginTransaction();
+
     $r1 = self::pdo()->exec($OrderTable);
     $r2 = self::pdo()->exec($PizzaTable);
     $r3 = self::pdo()->exec($ProxyPizzaTable);
     $r4 = self::pdo()->exec($PizzaServiceTable);
     $r5 = self::pdo()->exec($OrderProxyTable);
-    
+
+    self::pdo()->commit();
+
     return $r1 !== false && $r2 !== false && $r3 !== false && $r4 !== false && $r5 !== false;
     
   }
