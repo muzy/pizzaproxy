@@ -39,6 +39,8 @@ for($i=0; $i < count($pizzerientmp); $i++){
 	}
 }
 
+$db->beginTransaction();
+
 $pizzeriaid = 1;
 foreach($pizzerien as $single){
 	$query = 'INSERT INTO pizzaservice (id, name, phone) VALUES ('.$pizzeriaid.',"'.$single['name'].'","'.$single['telefon'].'")';
@@ -66,5 +68,7 @@ for($i=1; $i < $pizzeriaid; $i++){
 			}
 	}
 } 
+
+$db->commit();
 
 ?>
